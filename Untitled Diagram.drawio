@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T03:27:43.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="E3A9jQijJNhflzTRoLfH" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T03:35:34.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iYV3Gae2cPWc5o68HUz8" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3076" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="3sq2q5aOKvz9u4SkfBbp-9" value="project" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;strokeColor=default;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="440" y="630" width="250" height="290" as="geometry" />
+          <mxGeometry x="440" y="630" width="250" height="320" as="geometry" />
         </mxCell>
         <mxCell id="G1SJ9XWwTOi_GsLU9m5k-24" value="主要类，angr的入口，初始化二进制程序。" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;whiteSpace=wrap;" vertex="1" parent="3sq2q5aOKvz9u4SkfBbp-9">
           <mxGeometry y="26" width="250" height="54" as="geometry" />
@@ -16,8 +16,8 @@
         <mxCell id="3sq2q5aOKvz9u4SkfBbp-11" value="- simos &lt;br&gt;模拟器/目标操作系统类型，初始化可以手动指定也可以自动根据程序类型初始化。" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;whiteSpace=wrap;" parent="3sq2q5aOKvz9u4SkfBbp-9" vertex="1">
           <mxGeometry y="160" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3sq2q5aOKvz9u4SkfBbp-12" value="- arch&amp;nbsp;&lt;br&gt;架构、寄存器啥的" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" parent="3sq2q5aOKvz9u4SkfBbp-9" vertex="1">
-          <mxGeometry y="240" width="250" height="50" as="geometry" />
+        <mxCell id="3sq2q5aOKvz9u4SkfBbp-12" value="- arch&amp;nbsp;&lt;br&gt;使用了angr自己的一个库archinfo，用于表示架构、寄存器啥的" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;whiteSpace=wrap;" parent="3sq2q5aOKvz9u4SkfBbp-9" vertex="1">
+          <mxGeometry y="240" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-0" value="AngrObjectFactory" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;strokeColor=default;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-120" y="195" width="300" height="390" as="geometry" />
@@ -49,16 +49,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-21" value="SimState" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;strokeColor=default;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-160" y="1300" width="170" height="104" as="geometry" />
+          <mxGeometry x="-160" y="1300" width="200" height="126" as="geometry" />
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-22" value="- project 指向project" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
-          <mxGeometry y="26" width="170" height="26" as="geometry" />
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="w3D9RBcbC0xk_d73lik7-23" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
-          <mxGeometry y="52" width="170" height="26" as="geometry" />
+        <mxCell id="w3D9RBcbC0xk_d73lik7-23" value="- _arch = arch&lt;br&gt;根据project.arch初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
+          <mxGeometry y="52" width="200" height="48" as="geometry" />
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-24" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
-          <mxGeometry y="78" width="170" height="26" as="geometry" />
+          <mxGeometry y="100" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="G1SJ9XWwTOi_GsLU9m5k-4" value="list" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;strokeColor=default;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="910" y="490" width="250" height="104" as="geometry" />
