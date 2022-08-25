@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T03:43:15.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="o3CL0qVFhUlCx_ZGsK7e" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T03:46:42.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pR3YSJqEOTGxNC8Wa5CD" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3076" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,19 +49,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-21" value="SimState" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;strokeColor=default;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="410" y="80" width="250" height="174" as="geometry" />
+          <mxGeometry x="410" y="80" width="250" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-68" value="主要的类之一，程序状态，包括寄存器、内存等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;whiteSpace=wrap;" vertex="1" parent="w3D9RBcbC0xk_d73lik7-21">
+          <mxGeometry y="26" width="250" height="44" as="geometry" />
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-22" value="- project 指向project" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
-          <mxGeometry y="26" width="250" height="26" as="geometry" />
+          <mxGeometry y="70" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-23" value="- _arch = arch&lt;br&gt;archinfo 根据project.arch初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
-          <mxGeometry y="52" width="250" height="48" as="geometry" />
+          <mxGeometry y="96" width="250" height="48" as="geometry" />
         </mxCell>
         <mxCell id="G1SJ9XWwTOi_GsLU9m5k-67" value="- memary&lt;br&gt;内存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" vertex="1" parent="w3D9RBcbC0xk_d73lik7-21">
-          <mxGeometry y="100" width="250" height="48" as="geometry" />
+          <mxGeometry y="144" width="250" height="48" as="geometry" />
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-24" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
-          <mxGeometry y="148" width="250" height="26" as="geometry" />
+          <mxGeometry y="192" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="G1SJ9XWwTOi_GsLU9m5k-4" value="list" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;strokeColor=default;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="910" y="490" width="250" height="104" as="geometry" />
@@ -117,7 +120,7 @@
         <mxCell id="G1SJ9XWwTOi_GsLU9m5k-38" value="SimLinux(SimUserland)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;strokeColor=default;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-130" y="750" width="300" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-39" value="xxx" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" vertex="1" parent="G1SJ9XWwTOi_GsLU9m5k-38">
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-39" value="主要负责linux架构的程序的初始状态初始化" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" vertex="1" parent="G1SJ9XWwTOi_GsLU9m5k-38">
           <mxGeometry y="26" width="300" height="32" as="geometry" />
         </mxCell>
         <mxCell id="G1SJ9XWwTOi_GsLU9m5k-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;startSize=26;html=1;strokeColor=default;" vertex="1" parent="G1SJ9XWwTOi_GsLU9m5k-38">
@@ -148,7 +151,7 @@
             <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-50" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" vertex="1" parent="G1SJ9XWwTOi_GsLU9m5k-49">
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-50" value="各种系统初始化类的父类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" vertex="1" parent="G1SJ9XWwTOi_GsLU9m5k-49">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="G1SJ9XWwTOi_GsLU9m5k-51" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;html=1;" vertex="1" parent="G1SJ9XWwTOi_GsLU9m5k-49">
