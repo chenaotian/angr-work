@@ -1,1 +1,502 @@
-<mxfile host="Electron" modified="2022-08-26T18:32:37.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.9.9 Chrome/85.0.4183.121 Electron/10.1.5 Safari/537.36" etag="SLmjabm0_LgK1lSZD9kT" version="13.9.9" type="device"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-27T01:39:22.075Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yLklcMP-kG9vu1D4EYjQ" version="20.2.5" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="4024" dy="2346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="3sq2q5aOKvz9u4SkfBbp-9" value="project" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="420" y="585" width="250" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-24" value="主要类，angr的入口，初始化二进制程序。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="3sq2q5aOKvz9u4SkfBbp-9" vertex="1">
+          <mxGeometry y="26" width="250" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3sq2q5aOKvz9u4SkfBbp-10" value="- factory&lt;br&gt;该成员是AngrObjectFactory类，在project初始化的时候被初始化。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="3sq2q5aOKvz9u4SkfBbp-9" vertex="1">
+          <mxGeometry y="80" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3sq2q5aOKvz9u4SkfBbp-11" value="- simos &lt;br&gt;模拟器/目标操作系统类型，初始化可以手动指定也可以自动根据程序类型初始化。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="3sq2q5aOKvz9u4SkfBbp-9" vertex="1">
+          <mxGeometry y="160" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3sq2q5aOKvz9u4SkfBbp-12" value="- arch&amp;nbsp;&lt;br&gt;使用了angr自己的一个库archinfo，用于表示架构、寄存器啥的" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="3sq2q5aOKvz9u4SkfBbp-9" vertex="1">
+          <mxGeometry y="240" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-0" value="AngrObjectFactory" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-120" y="195" width="300" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-25" value="主要负责初始化各种符号执行相关的类/对象，比如程序的初始状态，初始化模拟执行管理器等。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
+          <mxGeometry y="26" width="300" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-1" value="- project 指向project" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
+          <mxGeometry y="110" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-2" value="+ field: type" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
+          <mxGeometry y="136" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-7" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
+          <mxGeometry y="162" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ entry_state(): SimState&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;根据程序入口获得一个初始化状态，返回状态类SimState。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;这里直接调用project.simos.state_entry()&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
+          <mxGeometry y="170" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-25" value="+ simgr()&lt;br&gt;simulation_manager() 的别名&lt;br&gt;初始化并返回一个SimulationManager对象" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
+          <mxGeometry y="330" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;startSize=26;sketch=1;entryX=1.014;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3sq2q5aOKvz9u4SkfBbp-10" target="w3D9RBcbC0xk_d73lik7-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="705" />
+              <mxPoint x="320" y="210" />
+            </Array>
+            <mxPoint x="390" y="650" as="sourcePoint" />
+            <mxPoint x="260" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-21" value="SimState(PluginHub)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="400" y="80" width="280" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-68" value="主要的类之一，程序状态，包括寄存器、内存等，在SimOs中被初始化" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
+          <mxGeometry y="26" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-22" value="- project 指向project" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
+          <mxGeometry y="70" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-23" value="- _arch = arch&lt;br&gt;archinfo 根据project.arch初始化" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
+          <mxGeometry y="96" width="280" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-67" value="- memary&lt;br&gt;内存" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
+          <mxGeometry y="144" width="280" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-0" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
+          <mxGeometry y="192" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w3D9RBcbC0xk_d73lik7-24" value="+ __init__&lt;br&gt;初始化架构、内存、寄存器&lt;br&gt;&lt;br&gt;架构使用archinfo&lt;br&gt;&lt;br&gt;内存和寄存器从插件池获取正确的插件，然后初始化" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
+          <mxGeometry y="200" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-4" value="list" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1270" y="10" width="250" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-5" value="&lt;span style=&quot;font-size: 16px; font-weight: 700; text-align: center;&quot;&gt;AngrObjectFactory&lt;/span&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-4" vertex="1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-6" value="&lt;span style=&quot;font-size: 16px; font-weight: 700; text-align: center;&quot;&gt;SimState&lt;/span&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-4" vertex="1">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-7" value="+ field: type" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-4" vertex="1">
+          <mxGeometry y="78" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-16" value="Explorer" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1280" y="310" width="240" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-18" value="各种不同的探索策略，可以自定义，比如深度优先等" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="G1SJ9XWwTOi_GsLU9m5k-16" vertex="1">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-19" value="+ field: type" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-16" vertex="1">
+          <mxGeometry y="80" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-38" value="SimLinux(SimUserland)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-130" y="750" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-39" value="主要负责linux架构的程序的初始状态初始化" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-38" vertex="1">
+          <mxGeometry y="26" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-42" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="G1SJ9XWwTOi_GsLU9m5k-38" vertex="1">
+          <mxGeometry y="58" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-40" value="+ state_entry(): SimState&lt;br&gt;先调用父类SimOS的state_entry函数。&lt;br&gt;然后对argc、argv、envp进行初始化(成向量BVV)。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-38" vertex="1">
+          <mxGeometry y="66" width="300" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-41" value="+ state_blank()&lt;br&gt;自己手动指定一个状态" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-38" vertex="1">
+          <mxGeometry y="160" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-81" value="+ state_full_init()&lt;br&gt;从头开始初始化程序获得初始状态" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-38" vertex="1">
+          <mxGeometry y="210" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3sq2q5aOKvz9u4SkfBbp-11" target="G1SJ9XWwTOi_GsLU9m5k-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="785" />
+              <mxPoint x="280" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-45" value="SimUserland(SimOS)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-430" y="760" width="200" height="78" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-47" value="+ field: type" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-45" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-48" value="+ field: type" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-45" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-49" value="SimOs" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-950" y="775" width="370" height="360" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-50" value="各种系统初始化类的父类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-49" vertex="1">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-51" value="+ field: type" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-49" vertex="1">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-58" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="G1SJ9XWwTOi_GsLU9m5k-49" vertex="1">
+          <mxGeometry y="78" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-69" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#FF0800;dashed=1;" parent="G1SJ9XWwTOi_GsLU9m5k-49" source="G1SJ9XWwTOi_GsLU9m5k-57" target="G1SJ9XWwTOi_GsLU9m5k-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-57" value="+ state_entry(): SimState&lt;br&gt;直接调用state_blank()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-49" vertex="1">
+          <mxGeometry y="86" width="370" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-59" value="+ state_blank(): SimState&lt;br&gt;state_entry、state_init、state_call都调用了这个函数，用于初始化一个SimState状态。&lt;br&gt;可以手工指定栈大小、位置、初始化的位置等&lt;br&gt;&lt;br&gt;根据用户是否手动指定，初始化一下函数内存段信息，和stdin(SimFileStream类)，后续用来注册&#39;posix&#39;类(SimState.register_plugin)。&lt;br&gt;&lt;br&gt;如果指定了initial_prefix，符号化寄存器。然后初始化什么栈、进程之类的。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="G1SJ9XWwTOi_GsLU9m5k-49" vertex="1">
+          <mxGeometry y="140" width="370" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-56" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=1.005;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G1SJ9XWwTOi_GsLU9m5k-45" target="G1SJ9XWwTOi_GsLU9m5k-38" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-350" y="1000.932" as="sourcePoint" />
+            <mxPoint x="-150" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-64" style="edgeStyle=orthogonalEdgeStyle;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;dashed=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G1SJ9XWwTOi_GsLU9m5k-40" target="G1SJ9XWwTOi_GsLU9m5k-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="873" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-65" style="edgeStyle=orthogonalEdgeStyle;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.125;entryDx=0;entryDy=0;dashed=1;fontFamily=Comic Sans MS;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w3D9RBcbC0xk_d73lik7-3" target="G1SJ9XWwTOi_GsLU9m5k-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-66" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 20px&quot;&gt;return&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;sketch=1;fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;exitX=1.003;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w3D9RBcbC0xk_d73lik7-3" target="w3D9RBcbC0xk_d73lik7-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="480" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="379" />
+              <mxPoint x="350" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-1" value="PluginHub" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="395" y="-600" width="290" height="508" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-4" value="插件hub，用来集成各种用于SimState的插件的类，集成的插件不代表使用，可以在这里选择插件使用，从这个类中后去插件之后调用插件的类初始化" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
+          <mxGeometry y="26" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-2" value="- _presets&amp;nbsp;&lt;br&gt;是PluginPreset类型的成员&lt;br&gt;我理解是插件池表，从这里注册启用插件&lt;br&gt;表示预设值插件，提前设置好" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
+          <mxGeometry y="106" width="290" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-5" value="-&amp;nbsp;plugin_preset&amp;nbsp;&lt;br&gt;==&amp;nbsp;_active_preset&lt;br&gt;表示启用的插件池" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
+          <mxGeometry y="190" width="290" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-10" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
+          <mxGeometry y="274" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-11" value="+ register_default&lt;br&gt;类方法&lt;br&gt;在默认插件池中注册一个指定名称的插件&lt;br&gt;很多插件在angr初始化的时候已经被注册好" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
+          <mxGeometry y="282" width="290" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-3" value="+ register_preset&lt;br&gt;类方法&lt;br&gt;添加一个指定名称的插件池" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
+          <mxGeometry y="376" width="290" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-17" value="+ use_plugin_preset&lt;br&gt;将指定名称的插件池作为激活插件池" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
+          <mxGeometry y="442" width="290" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-6" value="PluginPreset" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-60" y="-610" width="220" height="232" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-7" value="插件池类，里面可以有多个插件，主要提供一些增删改查之类的方法" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-6" vertex="1">
+          <mxGeometry y="26" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-18" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-6" vertex="1">
+          <mxGeometry y="90" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-8" value="+ add_default_plugin&lt;br&gt;往池子中添加一个指定名字的插件类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-6" vertex="1">
+          <mxGeometry y="98" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-35" value="+ request_plugin&lt;br&gt;根据名字获取对应的插件" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-6" vertex="1">
+          <mxGeometry y="170" width="220" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.106;entryDx=0;entryDy=0;strokeColor=#000000;sketch=1;rounded=1;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-2" target="-6HKtMP87Wfs7apmkZVI-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=0.491;exitY=1.048;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-17" target="w3D9RBcbC0xk_d73lik7-21" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-277.14999999999964" y="130.28999999999974" as="sourcePoint" />
+            <mxPoint x="-130" y="129.9959999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-19" value="SimStatePlugin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-390" y="-684" width="220" height="98" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-20" value="插件类型的基础类，其他插件都是从该类派生的" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-19" vertex="1">
+          <mxGeometry y="26" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-21" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-19" vertex="1">
+          <mxGeometry y="90" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-23" value="MemoryMixin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-390" y="-496" width="220" height="98" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-24" value="内存的基础类，派生自SimStatePlugin" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-23" vertex="1">
+          <mxGeometry y="26" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-25" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-23" vertex="1">
+          <mxGeometry y="90" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-26" value="PageMemoryMixin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-390" y="-296" width="220" height="98" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-27" value="页面内存基础类，派生自MemoryMixin" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-26" vertex="1">
+          <mxGeometry y="26" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-28" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-26" vertex="1">
+          <mxGeometry y="90" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-29" value="DefaultMemory" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-390" y="-106" width="220" height="98" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-30" value="默认的内存插件，被注册为sym_memory插件，派生自多个类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-29" vertex="1">
+          <mxGeometry y="26" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-31" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-29" vertex="1">
+          <mxGeometry y="90" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-32" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-19" target="-6HKtMP87Wfs7apmkZVI-23" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-99.9999999999992" y="-406.41199999999986" as="sourcePoint" />
+            <mxPoint x="-97.38999999999953" y="-237.57999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-33" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-23" target="-6HKtMP87Wfs7apmkZVI-26" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-270" y="-576" as="sourcePoint" />
+            <mxPoint x="-270" y="-486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-26" target="-6HKtMP87Wfs7apmkZVI-29" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-270" y="-388" as="sourcePoint" />
+            <mxPoint x="-270" y="-286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-30" target="-6HKtMP87Wfs7apmkZVI-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-38" value="&lt;font style=&quot;font-size: 18px&quot;&gt;参数&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0800;" parent="-6HKtMP87Wfs7apmkZVI-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.2478" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-39" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#000000;fontColor=#FF0800;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="-230" as="sourcePoint" />
+            <mxPoint x="310" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-40" value="&lt;font style=&quot;font-size: 23px&quot;&gt;开局添加&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FF0800;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="-218" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-41" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 20px&quot;&gt;return&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;sketch=1;fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.003;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w3D9RBcbC0xk_d73lik7-25" target="-6HKtMP87Wfs7apmkZVI-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-821" y="510" as="sourcePoint" />
+            <mxPoint x="-360" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="555" />
+              <mxPoint x="-230" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-42" value="SimulationManager" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-840" y="30" width="380" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-43" value="模拟执行管理模块，包括step、run等常见模拟执行方法" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="26" width="380" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-44" value="- _project&lt;br&gt;指向project" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="80" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-67" value="- _stashes&lt;br&gt;存放所有状态&lt;br&gt;active: 下一个要执行的状态&lt;br&gt;deadended: 结束状态，后面没有了&lt;br&gt;··· ···" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="130" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-47" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="230" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-45" value="+ __init__&lt;br&gt;初始化需要给定一个程序状态，即SimState对象" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="238" width="380" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-66" value="+ explore()&lt;br&gt;自动开启符号执行，寻找满足条件的目标状态(find、avoid)，或达到指定的次数上限&lt;br&gt;调用use_technique之后直接run" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="290" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-50" value="+ use_technique()&lt;br&gt;指定Explore方法，可以同时指定多种" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="380" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-49" value="+ run()&lt;br&gt;一直调用step()直到触发停止条件或到达次数上限" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="430" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-46" value="+ step()&lt;br&gt;单步符号执行执行一个基本块" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-42" vertex="1">
+          <mxGeometry y="480" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-52" value="SimSolver" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-700" y="-496" width="220" height="98" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-53" value="求解约束类，求解器也是一个插件" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-52" vertex="1">
+          <mxGeometry y="26" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-54" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-52" vertex="1">
+          <mxGeometry y="90" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-55" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=0.185;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-21" target="-6HKtMP87Wfs7apmkZVI-52" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-270" y="-576" as="sourcePoint" />
+            <mxPoint x="-270" y="-486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-56" value="AddressConcretizationMixin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-990" y="-296" width="260" height="118" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-57" value="涉及到读写符号地址的时候的执行方法，需要指定read_strategies、和write_strategies对象，来进行具体的处理" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-56" vertex="1">
+          <mxGeometry y="26" width="260" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-58" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-56" vertex="1">
+          <mxGeometry y="110" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-59" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.049;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-56" edge="1" target="-6HKtMP87Wfs7apmkZVI-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-270" y="-188" as="sourcePoint" />
+            <mxPoint x="-280" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-60" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.023;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-24" target="-6HKtMP87Wfs7apmkZVI-56" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-280" y="-388" as="sourcePoint" />
+            <mxPoint x="-270" y="-286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-61" value="··· ···" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-680" y="-296" width="260" height="108" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-62" value="内存插件由一堆类派生而来" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-61" vertex="1">
+          <mxGeometry y="26" width="260" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-63" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-61" vertex="1">
+          <mxGeometry y="100" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-64" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=0.787;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.256;exitY=1.103;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-24" target="-6HKtMP87Wfs7apmkZVI-61" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-320" y="-410" as="sourcePoint" />
+            <mxPoint x="-570" y="-286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-65" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="-6HKtMP87Wfs7apmkZVI-29" edge="1" source="-6HKtMP87Wfs7apmkZVI-61">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-810" y="-188" as="sourcePoint" />
+            <mxPoint x="-559.94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-68" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=1;exitY=0.048;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G1SJ9XWwTOi_GsLU9m5k-49" target="G1SJ9XWwTOi_GsLU9m5k-45" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-560.0000000000005" y="860.0039999999995" as="sourcePoint" />
+            <mxPoint x="-461" y="862.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-70" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;exitX=1.003;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G1SJ9XWwTOi_GsLU9m5k-16" target="-6HKtMP87Wfs7apmkZVI-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1250" y="230" as="sourcePoint" />
+            <mxPoint x="-1140" y="-198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-71" value="&lt;font style=&quot;font-size: 18px&quot;&gt;参数&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0800;" parent="-6HKtMP87Wfs7apmkZVI-70" vertex="1" connectable="0">
+          <mxGeometry x="-0.2478" y="1" relative="1" as="geometry">
+            <mxPoint y="31.14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-72" value="ExplorationTechnique" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1280" y="130" width="240" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-73" value="探索的基类，其他探索方法由这个类派生" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-72" vertex="1">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-74" value="+ field: type" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-72" vertex="1">
+          <mxGeometry y="80" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-75" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=0.495;exitY=1.121;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-6HKtMP87Wfs7apmkZVI-74" target="G1SJ9XWwTOi_GsLU9m5k-16" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-990" y="195" as="sourcePoint" />
+            <mxPoint x="-990" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-0" value="SimConcretizationStrategy" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1310" y="-690" width="260" height="140" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-1" value="符号化内存具现化策略类，通过从这个类派生其他类来实现其他策略" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="MEX2Voqiu-UWMNFizB_m-0">
+          <mxGeometry y="26" width="260" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-2" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" vertex="1" parent="MEX2Voqiu-UWMNFizB_m-0">
+          <mxGeometry y="80" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-6" value="+ _concretize&lt;br&gt;将符号化内存具现化的方法" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="MEX2Voqiu-UWMNFizB_m-0">
+          <mxGeometry y="88" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MEX2Voqiu-UWMNFizB_m-3" target="-6HKtMP87Wfs7apmkZVI-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-3" value="SimConcretizationStrategyEval" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1520" y="-480" width="280" height="88" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-4" value="获得符号化内存的符号约束表达式的派生策略" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="MEX2Voqiu-UWMNFizB_m-3">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-5" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" vertex="1" parent="MEX2Voqiu-UWMNFizB_m-3">
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MEX2Voqiu-UWMNFizB_m-7" target="-6HKtMP87Wfs7apmkZVI-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-7" value="SimConcretizationStrategyMax" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1160" y="-480" width="280" height="88" as="geometry">
+            <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-8" value="获得符号化内存中值最大值的派生策略" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="MEX2Voqiu-UWMNFizB_m-7">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-9" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" vertex="1" parent="MEX2Voqiu-UWMNFizB_m-7">
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;exitX=0.503;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MEX2Voqiu-UWMNFizB_m-6" target="MEX2Voqiu-UWMNFizB_m-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-270" y="-576" as="sourcePoint" />
+            <mxPoint x="-270" y="-486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEX2Voqiu-UWMNFizB_m-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="MEX2Voqiu-UWMNFizB_m-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1180" y="-550" as="sourcePoint" />
+            <mxPoint x="-270" y="-486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
