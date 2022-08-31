@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T11:01:45.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Jv4ESuEFHx5clxYAbIOa" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T11:04:07.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="u46nt7GJFt_Gkqowcv6n" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4239" dy="4352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -540,18 +540,30 @@
           <mxGeometry y="160" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-6" value="PagedMemoryMixin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-700" y="-2490" width="440" height="148" as="geometry">
+          <mxGeometry x="-740" y="-2490" width="440" height="380" as="geometry">
             <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JRtBMN249R-x29OtQVno-7" value="页面内存基础类，派生自MemoryMixin，模拟一个内存页，以字节为单位存放内存的值或符号。该类也会继续派生出各种不同的内存页类。一个该类的对象只表示一个模拟页。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-6" vertex="1">
+        <mxCell id="JRtBMN249R-x29OtQVno-7" value="页面内存基础类，派生自MemoryMixin，模拟一个内存页，以字节为单位存放内存的值或符号。该类也会继续派生出各种不同的内存页类。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-6" vertex="1">
           <mxGeometry y="26" width="440" height="64" as="geometry" />
         </mxCell>
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-15" value="- page_size&lt;br&gt;表示一页的大小" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="JRtBMN249R-x29OtQVno-6">
           <mxGeometry y="90" width="440" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-16" value="- _permissions_map&lt;br&gt;页面权限" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="JRtBMN249R-x29OtQVno-6">
+          <mxGeometry y="140" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-17" value="- _pages-&amp;gt;dict&lt;br&gt;页的字典，根据页地址计算出页字典下标" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="JRtBMN249R-x29OtQVno-6">
+          <mxGeometry y="190" width="440" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-8" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="JRtBMN249R-x29OtQVno-6" vertex="1">
-          <mxGeometry y="140" width="440" height="8" as="geometry" />
+          <mxGeometry y="240" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-20" value="+ store&lt;br&gt;将指定值/符号存入指定地址，派生类负责实现" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=1;" vertex="1" parent="JRtBMN249R-x29OtQVno-6">
+          <mxGeometry y="248" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-19" value="+ load&lt;br&gt;获取指定地址的内存中的值，派生类负责实现" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="JRtBMN249R-x29OtQVno-6">
+          <mxGeometry y="318" width="440" height="62" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-9" value="DefaultMemory" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-610" y="-1720" width="220" height="98" as="geometry">
