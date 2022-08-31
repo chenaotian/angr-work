@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T10:45:55.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yVpnd86G5C7WmX4Ib_VI" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T10:55:05.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0GnDKQIlUqrVTCPJNl9P" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4135" dy="4302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -585,36 +585,42 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-19" value="AddressConcretizationMixin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1320" y="-2279" width="390" height="630" as="geometry">
+          <mxGeometry x="-1480" y="-2279" width="490" height="830" as="geometry">
             <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-20" value="涉及到读写符号地址的时候的执行方法，需要指定read_strategies、和write_strategies对象，来进行具体的处理" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-19" vertex="1">
-          <mxGeometry y="26" width="390" height="84" as="geometry" />
+          <mxGeometry y="26" width="490" height="64" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-21" value="- read_strategies&lt;br&gt;一个列表，可以存放多个策略&lt;br&gt;读符号化内存的策略，通过初始化指定" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-19" vertex="1">
-          <mxGeometry y="110" width="390" height="70" as="geometry" />
+          <mxGeometry y="90" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-22" value="- write_strategies&lt;br&gt;一个列表，可以存放多个策略&lt;br&gt;写符号化内存的策略，通过初始化指定" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-19" vertex="1">
-          <mxGeometry y="180" width="390" height="70" as="geometry" />
+          <mxGeometry y="160" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-23" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="JRtBMN249R-x29OtQVno-19" vertex="1">
-          <mxGeometry y="250" width="390" height="8" as="geometry" />
+          <mxGeometry y="230" width="490" height="8" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-24" value="+ set_state&lt;br&gt;如果初始化没指定则会将读写策略设置成默认策略" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-19" vertex="1">
-          <mxGeometry y="258" width="390" height="52" as="geometry" />
+          <mxGeometry y="238" width="490" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-25" value="+ _create_default_write_strategies&lt;br&gt;创建默认写策略，用于向符号地址中写入数据。默认有两种策略，先Range(范围)，后Max(最大)。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-19" vertex="1">
-          <mxGeometry y="310" width="390" height="70" as="geometry" />
+          <mxGeometry y="290" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-0" value="+ _create_default_write_strategies&lt;br&gt;创建默认读策略，用于从符号地址中读出数据。默认有两种策略，先Range(范围)，后Any(随便来一个)。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="JRtBMN249R-x29OtQVno-19">
-          <mxGeometry y="380" width="390" height="70" as="geometry" />
+          <mxGeometry y="360" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-26" value="+ concretize_write_addr&lt;br&gt;通过指定的策略来实现向符号地址写入数据，会遍历self.write_strategies中的策略依次执行，如果有成功的直接返回。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=0;" parent="JRtBMN249R-x29OtQVno-19" vertex="1">
-          <mxGeometry y="450" width="390" height="90" as="geometry" />
+          <mxGeometry y="430" width="490" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Z9_WpyUp3ctRPymMz_iH-10" value="+ concretize_read_addr&lt;br&gt;通过指定的策略来实现从符号地址读出数据，会遍历self.read_strategies中的策略依次执行，如果有成功的直接返回。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=1;" vertex="1" parent="JRtBMN249R-x29OtQVno-19">
-          <mxGeometry y="540" width="390" height="90" as="geometry" />
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-10" value="+ concretize_read_addr&lt;br&gt;通过指定的策略来实现从符号地址读出数据，会遍历self.read_strategies中的策略依次执行，如果有成功的直接返回。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=0;" vertex="1" parent="JRtBMN249R-x29OtQVno-19">
+          <mxGeometry y="500" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-12" value="+ load&lt;br&gt;实现的内存插件最基本的从符号内存读取数据的方法&lt;br&gt;重点针对符号内存地址处理，对非符号(整数)内存地址和只有唯一解的符号内存地址直接交给下一个插件继续。&lt;br&gt;&lt;br&gt;使用self.concretize_write_addr方法会获得若干个地址可能的具体值。对于每一个都会尝试读取，然后合并成一个逻辑表达式。&lt;br&gt;&lt;br&gt;所以最后返回的可能是一个逻辑表达式(if addr = xx 则 elif adr=xx 则 else 则)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="JRtBMN249R-x29OtQVno-19">
+          <mxGeometry y="570" width="490" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-13" value="+ store&lt;br&gt;实现的内存插件最基本的向符号内存写入数据的方法&lt;br&gt;类似load，对于符号的具现化之后的所有值都会交给下一棒store处理" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=1;" vertex="1" parent="JRtBMN249R-x29OtQVno-19">
+          <mxGeometry y="760" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JRtBMN249R-x29OtQVno-3" target="JRtBMN249R-x29OtQVno-19" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
