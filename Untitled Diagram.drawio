@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T10:35:45.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SSo6LT4nkNipNCyzv7Ps" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T10:38:32.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cHAzAkedb3Mr1v_GSBLo" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4135" dy="4302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -540,15 +540,15 @@
           <mxGeometry y="160" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-6" value="PagedMemoryMixin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-570" y="-1980" width="220" height="98" as="geometry">
+          <mxGeometry x="-610" y="-1980" width="280" height="98" as="geometry">
             <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JRtBMN249R-x29OtQVno-7" value="页面内存基础类，派生自MemoryMixin" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-6" vertex="1">
-          <mxGeometry y="26" width="220" height="64" as="geometry" />
+        <mxCell id="JRtBMN249R-x29OtQVno-7" value="页面内存基础类，派生自MemoryMixin，模拟一个内存页，以字节为单位存放内存的值或符号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-6" vertex="1">
+          <mxGeometry y="26" width="280" height="64" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-8" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="JRtBMN249R-x29OtQVno-6" vertex="1">
-          <mxGeometry y="90" width="220" height="8" as="geometry" />
+          <mxGeometry y="90" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-9" value="DefaultMemory" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-610" y="-1720" width="220" height="98" as="geometry">
@@ -682,8 +682,8 @@
             <mxPoint x="-1160" y="-2526" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JRtBMN249R-x29OtQVno-51" value="啥的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-2050" y="-1930" width="120" height="60" as="geometry" />
+        <mxCell id="JRtBMN249R-x29OtQVno-51" value="angr 的一个设计模式MIxin模式，从一个基类根据不同的小功能模块派生出一堆扩展类根据某个大功能需要的若干小功能，将这些小功能的扩展类一起用python 多继承的方法派生出一个最终的实现大功能的类。在调用该大功能中某个实现方法的时候，会依次使用super 调用下一个小功能中的该方法。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2050" y="-1930" width="430" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
