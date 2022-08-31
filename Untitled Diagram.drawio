@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T13:50:02.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NzP0aNw7aGzYLreObkcr" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T13:50:47.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="CWbCB0CEooG0AnaFQsXp" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="8782" dy="2982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -672,7 +672,7 @@
         <mxCell id="JRtBMN249R-x29OtQVno-45" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="JRtBMN249R-x29OtQVno-43" vertex="1">
           <mxGeometry y="80" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JRtBMN249R-x29OtQVno-51" value="&lt;h3 style=&quot;font-size: 15px;&quot;&gt;angr 的设计模式Mixin&lt;/h3&gt;angr 的一个设计模式MIxin模式，从一个基类根据不同的小功能模块派生出一堆扩展类根据某个大功能需要的若干小功能，将这些小功能的扩展类一起用python 多继承的方法派生出一个最终的实现大功能的类。在调用该大功能中某个实现方法的时候，会依次使用super 调用下一个小功能中的该方法。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;sketch=1;align=left;fontSize=15;dashed=1;strokeWidth=2;perimeterSpacing=0;verticalAlign=middle;spacingLeft=7;spacingBottom=7;spacingRight=7;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="JRtBMN249R-x29OtQVno-51" value="&lt;h3 style=&quot;font-size: 15px;&quot;&gt;angr 的设计模式Mixin&lt;/h3&gt;angr 的一个设计模式MIxin模式，从一个基类根据不同的小功能模块派生出一堆扩展类根据某个大功能需要的若干小功能，将这些小功能的扩展类一起用python 多继承的方法派生出一个最终的实现大功能的类。在调用该大功能中某个实现方法的时候，会依次使用super 调用下一个小功能中的该方法。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;sketch=1;align=left;fontSize=15;dashed=1;strokeWidth=2;perimeterSpacing=0;verticalAlign=middle;spacingLeft=7;spacingBottom=7;spacingRight=7;strokeColor=#d6b656;fontFamily=Comic Sans MS;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-260" y="-1960" width="420" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JRtBMN249R-x29OtQVno-0" target="JRtBMN249R-x29OtQVno-3">
@@ -890,8 +890,8 @@
             <mxPoint x="-1416" y="111" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z9_WpyUp3ctRPymMz_iH-73" value="&lt;h3 style=&quot;font-size: 15px;&quot;&gt;angr 对于符号化内存地址读写的策略实现&lt;/h3&gt;在内存插件的Mixin类中的AddressConcretizationMixin类负责处理传入地址是符号数据的情况。处理方式是调用通过派生SimConcretizationStrategy类而成的符号地址具现化策略中的concretize方法。来获得一个或多个满足符号约束的地址值来进行后续操作。&lt;br&gt;&lt;br&gt;用户可以通过派生SimConcretizationStrategy类来实现自己的符号地址具现化策略。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;sketch=1;align=left;fontSize=15;dashed=1;strokeWidth=2;perimeterSpacing=0;verticalAlign=middle;spacingLeft=7;spacingBottom=7;spacingRight=7;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1770" y="-1320" width="550" height="170" as="geometry" />
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-73" value="&lt;h3 style=&quot;font-size: 15px;&quot;&gt;angr 对于符号化内存地址读写的策略实现&lt;/h3&gt;在内存插件的Mixin类中的AddressConcretizationMixin类负责处理传入地址是符号数据的情况。处理方式是调用通过派生SimConcretizationStrategy类而成的符号地址具现化策略中的concretize方法。来获得一个或多个满足符号约束的地址值来进行后续操作。&lt;br&gt;&lt;br&gt;用户可以通过派生SimConcretizationStrategy类来实现自己的符号地址具现化策略。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;sketch=1;align=left;fontSize=15;dashed=1;strokeWidth=2;perimeterSpacing=0;verticalAlign=middle;spacingLeft=7;spacingBottom=7;spacingRight=7;strokeColor=#b85450;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1770" y="-1320" width="550" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-74" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JRtBMN249R-x29OtQVno-0" target="JRtBMN249R-x29OtQVno-15">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -918,7 +918,7 @@
             <mxPoint x="3" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z9_WpyUp3ctRPymMz_iH-86" value="&lt;h3 style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: left; font-size: 15px;&quot;&gt;angr中的插件&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#e1d5e7;sketch=1;dashed=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-86" value="&lt;h3 style=&quot;color: rgb(0, 0, 0); text-align: left; font-size: 15px;&quot;&gt;angr中的插件&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#e1d5e7;sketch=1;dashed=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="-670" width="530" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-89" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=18;fontColor=#000000;strokeWidth=3;sketch=1;fillColor=#FF3333;strokeColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -926,6 +926,9 @@
             <mxPoint x="770" y="630" as="sourcePoint" />
             <mxPoint x="690" y="620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-91" value="&lt;h3 style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; text-align: left; font-size: 15px;&quot;&gt;solver&lt;/h3&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#e1d5e7;sketch=1;dashed=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="-252" width="530" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
