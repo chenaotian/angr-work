@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T13:48:18.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vyVGxYyzCEXgzQvybN3v" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T13:50:02.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NzP0aNw7aGzYLreObkcr" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="8615" dy="2901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8782" dy="2982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -34,7 +34,7 @@
         <mxCell id="w3D9RBcbC0xk_d73lik7-7" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
           <mxGeometry y="162" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="w3D9RBcbC0xk_d73lik7-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ entry_state(): SimState&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;根据程序入口获得一个初始化状态，返回状态类SimState。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;这里直接调用project.simos.state_entry()&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
+        <mxCell id="w3D9RBcbC0xk_d73lik7-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ entry_state(): SimState&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;根据程序入口获得一个初始化状态，返回状态类SimState。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;这里直接调用project.simos.state_entry()&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
           <mxGeometry y="170" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="w3D9RBcbC0xk_d73lik7-25" value="+ simgr()&lt;br&gt;simulation_manager() 的别名&lt;br&gt;初始化并返回一个SimulationManager对象" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;rounded=1;" parent="w3D9RBcbC0xk_d73lik7-0" vertex="1">
@@ -62,7 +62,7 @@
         <mxCell id="w3D9RBcbC0xk_d73lik7-23" value="- _arch = arch&lt;br&gt;archinfo 根据project.arch初始化" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
           <mxGeometry y="96" width="280" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-67" value="- memary&lt;br&gt;内存" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
+        <mxCell id="G1SJ9XWwTOi_GsLU9m5k-67" value="- memary&lt;br&gt;内存，直接访问注册的内存插件" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
           <mxGeometry y="144" width="280" height="48" as="geometry" />
         </mxCell>
         <mxCell id="-6HKtMP87Wfs7apmkZVI-0" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="w3D9RBcbC0xk_d73lik7-21" vertex="1">
