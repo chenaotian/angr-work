@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T13:51:27.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OVlv3OIsaHROeWpQgVQn" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T01:48:24.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Dv2nH7WLWK63VMjZ88ZX" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3887" dy="3014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,7 +180,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-6HKtMP87Wfs7apmkZVI-1" value="PluginHub" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="395" y="-600" width="300" height="508" as="geometry">
+          <mxGeometry x="395" y="-600" width="300" height="512" as="geometry">
             <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -196,14 +196,14 @@
         <mxCell id="-6HKtMP87Wfs7apmkZVI-10" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
           <mxGeometry y="274" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="-6HKtMP87Wfs7apmkZVI-11" value="+ register_default&lt;br&gt;类方法&lt;br&gt;在默认插件池中注册一个指定名称的插件&lt;br&gt;很多插件在angr初始化的时候已经被注册好" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
-          <mxGeometry y="282" width="300" height="94" as="geometry" />
+        <mxCell id="-6HKtMP87Wfs7apmkZVI-11" value="+ register_default&lt;br&gt;类方法&lt;br&gt;在默认插件池中注册一个指定名称的插件&lt;br&gt;很多插件在初始化阶段就会调用该类方法将自己添加到插件池之中" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
+          <mxGeometry y="282" width="300" height="98" as="geometry" />
         </mxCell>
         <mxCell id="-6HKtMP87Wfs7apmkZVI-3" value="+ register_preset&lt;br&gt;类方法&lt;br&gt;添加一个指定名称的插件池" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
-          <mxGeometry y="376" width="300" height="66" as="geometry" />
+          <mxGeometry y="380" width="300" height="66" as="geometry" />
         </mxCell>
         <mxCell id="-6HKtMP87Wfs7apmkZVI-17" value="+ use_plugin_preset&lt;br&gt;将指定名称的插件池作为激活插件池" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;rounded=1;" parent="-6HKtMP87Wfs7apmkZVI-1" vertex="1">
-          <mxGeometry y="442" width="300" height="66" as="geometry" />
+          <mxGeometry y="446" width="300" height="66" as="geometry" />
         </mxCell>
         <mxCell id="-6HKtMP87Wfs7apmkZVI-6" value="PluginPreset" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-70" y="-210" width="220" height="232" as="geometry">
@@ -487,18 +487,18 @@
             <mxPoint x="-90" y="-1800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z9_WpyUp3ctRPymMz_iH-21" value="PageBase" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="-1380" width="310" height="118" as="geometry">
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-21" value="PageBase(HistoryTrackingMixin, RefcountMixin, CooperationBase, ISPOMixin, PermissionMixin, MemoryMixin)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="-1430" width="490" height="138" as="geometry">
             <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-22" value="模拟内存页的最基本类型，其他内存页类都派生自该类。最后用于PageMemoryMixin以及其派生类中的_pages之中，单个PageBase类的实例只代表一个模拟页。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="Z9_WpyUp3ctRPymMz_iH-21">
-          <mxGeometry y="26" width="310" height="84" as="geometry" />
+          <mxGeometry y="60" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-23" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" vertex="1" parent="Z9_WpyUp3ctRPymMz_iH-21">
-          <mxGeometry y="110" width="310" height="8" as="geometry" />
+          <mxGeometry y="130" width="490" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Z9_WpyUp3ctRPymMz_iH-24" value="ListPage" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-24" value="ListPage(MemoryObjectMixin,PageBase)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="-1150" width="390" height="300" as="geometry">
             <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -724,7 +724,7 @@
             <mxPoint x="3" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z9_WpyUp3ctRPymMz_iH-86" value="&lt;h3 style=&quot;color: rgb(0, 0, 0); text-align: left; font-size: 15px;&quot;&gt;angr中的插件&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#e1d5e7;sketch=1;dashed=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-86" value="&lt;h3 style=&quot;color: rgb(0, 0, 0); text-align: left; font-size: 15px;&quot;&gt;angr中的插件&lt;/h3&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#e1d5e7;sketch=1;dashed=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="-670" width="530" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-89" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=18;fontColor=#000000;strokeWidth=3;sketch=1;fillColor=#FF3333;strokeColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
