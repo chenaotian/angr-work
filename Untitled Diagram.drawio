@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T03:10:08.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yPP3r2-plUhwkIfU-CwD" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T03:24:29.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HSqKFEiY2k-5vKyVSnAd" version="20.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4135" dy="3133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3704" dy="2926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -395,15 +395,30 @@
           <mxGeometry y="150" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-15" value="SimSolver(SimStatePlugin)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1067" y="-1780" width="240" height="98" as="geometry">
+          <mxGeometry x="-1230" y="-1850" width="410" height="360" as="geometry">
             <mxRectangle x="-440" y="752" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JRtBMN249R-x29OtQVno-16" value="求解约束类，求解器也是一个插件" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-15" vertex="1">
-          <mxGeometry y="26" width="240" height="64" as="geometry" />
+        <mxCell id="JRtBMN249R-x29OtQVno-16" value="求解约束类，求解器也是一个插件，主要是通过claripy实现的" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" parent="JRtBMN249R-x29OtQVno-15" vertex="1">
+          <mxGeometry y="26" width="410" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="OSWh80jPnmQAN3sRVBe3-12" value="- _stored_solver&lt;br&gt;别名_solver&lt;br&gt;一个求解器，可能是cvc4、z3、abc什么的" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;" vertex="1" parent="JRtBMN249R-x29OtQVno-15">
+          <mxGeometry y="90" width="410" height="64" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-17" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=15;startSize=26;html=1;" parent="JRtBMN249R-x29OtQVno-15" vertex="1">
-          <mxGeometry y="90" width="240" height="8" as="geometry" />
+          <mxGeometry y="154" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OSWh80jPnmQAN3sRVBe3-11" value="+ BVS&lt;br&gt;添加一个符号变量，符号变量通过claripy.BVS实现&lt;br&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=0;" vertex="1" parent="JRtBMN249R-x29OtQVno-15">
+          <mxGeometry y="162" width="410" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="OSWh80jPnmQAN3sRVBe3-13" value="+ BVV&lt;br&gt;添加一个向量，通过claripy.BVS实现" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=0;" vertex="1" parent="JRtBMN249R-x29OtQVno-15">
+          <mxGeometry y="210" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OSWh80jPnmQAN3sRVBe3-20" value="+ add&lt;br&gt;添加一个约束，通过_solver添加" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=0;" vertex="1" parent="JRtBMN249R-x29OtQVno-15">
+          <mxGeometry y="260" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OSWh80jPnmQAN3sRVBe3-21" value="+ eval&lt;br&gt;求解一个符号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=15;html=1;strokeColor=#000000;whiteSpace=wrap;rounded=1;" vertex="1" parent="JRtBMN249R-x29OtQVno-15">
+          <mxGeometry y="310" width="410" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JRtBMN249R-x29OtQVno-19" value="AddressConcretizationMixin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;html=1;swimlaneLine=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-695" y="-1410" width="490" height="830" as="geometry">
@@ -700,7 +715,7 @@
         <mxCell id="Z9_WpyUp3ctRPymMz_iH-73" value="&lt;h3 style=&quot;font-size: 15px;&quot;&gt;angr 对于符号化内存地址读写的策略实现&lt;/h3&gt;在内存插件的Mixin类中的AddressConcretizationMixin类负责处理传入地址是符号数据的情况。处理方式是调用通过派生SimConcretizationStrategy类而成的符号地址具现化策略中的concretize方法。来获得一个或多个满足符号约束的地址值来进行后续操作。&lt;br&gt;&lt;br&gt;用户可以通过派生SimConcretizationStrategy类来实现自己的符号地址具现化策略。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;sketch=1;align=left;fontSize=15;dashed=1;strokeWidth=2;perimeterSpacing=0;verticalAlign=middle;spacingLeft=7;spacingBottom=7;spacingRight=7;strokeColor=#b85450;fontFamily=Comic Sans MS;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1770" y="-1320" width="550" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Z9_WpyUp3ctRPymMz_iH-74" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JRtBMN249R-x29OtQVno-0" target="JRtBMN249R-x29OtQVno-15" edge="1">
+        <mxCell id="Z9_WpyUp3ctRPymMz_iH-74" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JRtBMN249R-x29OtQVno-0" target="JRtBMN249R-x29OtQVno-16" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-430" y="-1840" as="sourcePoint" />
             <mxPoint x="-440" y="-1770" as="targetPoint" />
